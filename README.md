@@ -6,9 +6,9 @@ Network autologin script for Tsinghua University which can keep your server onli
 1. Set the `USERNAME` and `PASSWORD` in the line [5-6] of the `autologin.py` to your own acount setting.
 
 2. Simply run the code below in the code directory.
-```
-python add_crontab.py
-```
+    ```
+    python add_crontab.py
+    ```
 
 3. The script will auto run automatically each 15 minutes.
 
