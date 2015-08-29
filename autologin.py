@@ -15,4 +15,5 @@ if __name__ == '__main__':
     }
     conn = urllib2.urlopen(LOGIN_URL, urllib.urlencode(auth_data))
     content = conn.read()
-    print content
+    if 'IP has been online, please logout.' not in content:
+        print content

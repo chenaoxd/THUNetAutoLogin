@@ -14,3 +14,5 @@ node_modules/*
 /.*
 ~*
 !.git*
+autologin.crontab
+autologin.log
