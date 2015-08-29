@@ -1,10 +1,16 @@
 # THUNetAutoLogin
 
 ## How to use
-Simply run the code below in the code directory.
+1. Set the `USERNAME` and `PASSWORD` in the line [5-6] of the `autologin.py` to your own acount setting.
+
+2. Simply run the code below in the code directory.
 ```
 python add_crontab.py
 ```
+
+3. The script will auto run automatically each 15 minutes.
+
+If your want to change the frequency, you can edit the `crontab_entry` variable in the line 6 of the `add_crontab.py` by yourself according to the crontab format. Or simply change 15 to any number you want that less than 60.
 
 ## Requirements
 
