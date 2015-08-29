@@ -1,5 +1,7 @@
 # THUNetAutoLogin
 
+Network autologin script for Tsinghua University which can keep your server online all the time. This script will login your acount in your server automatically, avoid the server being loged out when the link number reach maximun or due to other reasons.
+
 ## How to use
 1. Set the `USERNAME` and `PASSWORD` in the line [5-6] of the `autologin.py` to your own acount setting.
 
